@@ -12,4 +12,5 @@ public:
 	int getHP();
 	void setPos(Position p);
 	Position getPos();
+
 };
