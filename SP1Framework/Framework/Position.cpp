@@ -14,10 +14,10 @@ Position::Position(int r, int c)
 
 int Position::getRow()
 {
-	return 0;
+	return row;
 }
 
 int Position::getCol()
 {
-	return 0;
+	return col;
 }
