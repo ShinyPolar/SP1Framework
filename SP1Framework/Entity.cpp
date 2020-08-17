@@ -4,6 +4,10 @@ Entity::Entity()
 {
 }
 
+Entity::~Entity()
+{
+}
+
 int Entity::getHP()
 {
 	return HP;
@@ -11,6 +15,7 @@ int Entity::getHP()
 
 void Entity::setPos(Position p)
 {
+	Pos = p;
 }
 
 Position Entity::getPos()
